@@ -1,0 +1,180 @@
+<!--menu.html-->
+<!DOCTYPE html>
+<html>
+<div class="backgroundImageCVR">
+<div class="background-image"></div>
+<div class = "content">
+
+  <head>
+    <title> Menu </title>
+    <link href="menu.css" rel="stylesheet">
+  	<script src="hackathon.js"></script>
+  </head>
+
+  <body>
+    <h1> Criteria:
+    </h1>
+
+		<h5> Breakfast Only:</h5>
+      <section>
+        <p>
+        <br>
+          <input type="checkbox" onclick= "[MC, BK, DD, CF, SN, CJ, JB] = increment(MC, BK, DD, CF, SN, CJ, JB);this.disabled = 'true'" id="EggSandwiches" name="EggSandwiches" />
+        	<label for="EggSandwiches">Egg Sandwiches</label>
+        	<input type="checkbox" onclick="[MC, BK, JB] = increment(MC, BK, JB);this.disabled = 'true'" id="Pancakes" name="Pancakes" />
+        	<label for="Pancakes">Pancakes</label>
+        	<input type="checkbox" onclick="[MC, DD] = increment(MC, DD);this.disabled = 'true'" id="Bagels" name="Bagels" />
+        	<label for="Bagels">Bagels</label>
+        	<input type="checkbox" onclick="[MC, BK, TB, DD, CF, SN, CJ, JB] = increment(MC, BK, TB, DD, CF, SN, CJ, JB);this.disabled = 'true'" id="BreakfastBurritos" name="BreakfastBurritos" />
+        	<label for="BreakfastBurritos">Breakfast Burritos</label>
+        </br>
+      	<br>
+      		<input type="checkbox" onclick="[MC, BK, TB, DD, CF, SN, CJ, JB] = increment(MC, BK, TB, DD, CF, SN, CJ, JB);this.disabled = 'true'" id="Hashbrowns" name="Hashbrowns" />
+      		<label for="Hashbrowns">Hashbrowns</label>
+      		<input type="checkbox" onclick="[MC, BK, DD] = increment(MC, BK, DD);this.disabled = 'true'" id="Oatmeal" name="Oatmeal" />
+      		<label for="Oatmeal">Oatmeal</label>
+        	<input type="checkbox" onclick="[SW, DD, CF, SN, CJ, JB] = increment(SW, DD, CF, SN, CJ, JB);this.disabled = 'true'" id="BreakfastSandwiches" name="BreakfastSandwiches" />
+      		<label for="BreakfastSandwiches">Breakfast Sandwiches</label>
+        	<input type="checkbox" onclick="[BK] = increment(BK);this.disabled = 'true'" id="FrenchToastSticks" name="FrenchToastSticks" />
+      		<label for="FrenchToastSticks">French Toast Sticks</label>
+      	</br>
+				<br>
+      		<input type="checkbox" onclick="[DD, JB] = increment(DD, JB);this.disabled = 'true'" id="Muffins" name="Muffins" />
+					<label for="Muffins">Muffins</label>
+        	<input type="checkbox" onclick="[DD] = increment(DD);this.disabled = 'true'" id="Donuts" name="Donuts" />
+					<label for="Donuts">Donuts</label>
+      		<input type="checkbox" onclick="[CJ] = increment(CJ);this.disabled = 'true'" id="BiscuitsandGravy" name="BiscuitsandGravy" />
+					<label for="BiscuitsandGravy">Biscuits and Gravy</label>
+      		<input type="checkbox" onclick="[JB] = increment(JB);this.disabled = 'true'" id="EggsScrambled" name="EggsScrambled" />
+          <label for="EggsScrambled">Eggs (Scrambled)</label>
+      </p>
+      </section>
+
+		<h6> Main Menu: </h6>
+      <section>
+        <p>
+          <br>
+        	<input type="checkbox" onclick="[MC, BK, WE, SN, CJ, DQ, JB] = increment(MC, BK, WE, SN, CJ, DQ, JB);this.disabled = 'true'" id="Burgers" name="Burgers" />
+        	<label for="Burgers">Burgers</label>
+        	<input type="checkbox" onclick="[MC, BK, WE, CF, KFC, SN, CJ, DQ, JB, PJ] = increment(MC, BK, WE, CF, KFC, SN, CJ, DQ, JB, PJ);this.disabled = 'true'" id="ChickenNuggetsTenders" name="ChickenNuggetsTenders" />
+        	<label for="ChickenNuggetsTenders">Chicken Nuggets/Tenders</label>
+       		<input type="checkbox" onclick="[MC, BK, WE, DD, CF, KFC, SN, DQ, JB] = increment(MC, BK, WE, DD, CF, KFC, SN, DQ, JB);this.disabled = 'true'" id="ChickenSandwiches" name="ChickenSandwiches" />
+        	<label for="ChickenSandwiches">Chicken Sandwiches</label>
+       		<input type="checkbox" onclick="[MC, BK] = increment(MC, BK);this.disabled = 'true'" id="FishSandwiches" name="FishSandwiches" />
+        	<label for="FishSandwiches">Fish Sandwiches</label>
+        	<input type="checkbox" onclick="[MC, SW, BK, WE, CF, DM, CH, CJ, DQ, AR, JB] = increment(MC, SW, BK, WE, CF, DM, CH, CJ, DQ, AR, JB);this.disabled = 'true'" id="Salads" name="Salads" />
+        	<label for="Salads">Salads</label>
+        </br>
+      	<br>
+        	<input type="checkbox" onclick="[MC, BK, WE, CF, PH, KFC, SN, CJ, AR, JB] = increment(MC, BK, WE, CF, PH, KFC, SN, CJ, AR, JB);this.disabled = 'true'" id="Fries" name="Fries" />
+         	<label for="Fries">Fries</label>
+        	<input type="checkbox" onclick="[SW, CF] = increment(SW, CF);this.disabled = 'true'" id="Soup" name="Soup" />
+      		<label for="Soup">Soup</label>
+       		<input type="checkbox" onclick="[BK, SN, DQ] = increment(BK, SN, DQ);this.disabled = 'true'" id="HotDogs" name="HotDogs" />
+      		<label for="HotDogs">Hot Dogs</label>
+       		<input type="checkbox" onclick="[BK, SN, CJ, DQ, AR, JB] = increment(BK, SN, CJ, DQ, AR, JB);this.disabled = 'true'" id="OnionRings" name="OnionRings" />
+      		<label for="OnionRings">Onion Rings</label>
+        	<input type="checkbox" onclick="[WE] = increment(WE);this.disabled = 'true'" id="Chili" name="Chili" />
+      		<label for="Chili">Chili</label>
+        </br>
+				<br>
+        	<input type="checkbox" onclick="[WE] = increment(WE);this.disabled = 'true'" id="BakedPotatoes" name="BakedPotatoes" />
+					<label for="BakedPotatoes">Baked Potatoes</label>
+        	<input type="checkbox" onclick="[TB, CH, CJ, JB] = increment(TB, CH, CJ, JB);this.disabled = 'true'" id="Tacos" name="Tacos"  />
+					<label for="Tacos">Tacos</label>
+       		<input type="checkbox" onclick="[TB, CH, CJ] = increment(TB, CH, CJ);this.disabled = 'true'" id="Burritos" name="Burritos" />
+          <label for="Burritos">Burritos</label>
+       		<input type="checkbox" onclick="[TB] = increment(TB);this.disabled = 'true'" id="Quesadillas" name="Quesadillas" />
+					<label for="Quesadillas">Quesadillas</label>
+        	<input type="checkbox" onclick="[TB, CH] = increment(TB, CH);this.disabled = 'true'" id="Nachos" name="Nachos" />
+					<label for="Nachos">Nachos</label>
+        </br>
+        <br>
+        	<input type="checkbox" onclick="[TB, PH, DM, LC, PJ] = increment(TB, PH, DM, LC, PJ);this.disabled = 'true'" id="Pizza" name="Pizza" />
+					<label for="Pizza">Pizza</label>
+        	<input type="checkbox" onclick="[TB, CH, CJ] = increment(TB, CH, CJ);this.disabled = 'true'" id="ChipswSalsaGuacamole" name="ChipswSalsaGuacamole" />
+					<label for="ChipswSalsaGuacamole">Chips w/ Salsa/Guacamole</label>
+       		<input type="checkbox" onclick="[TB, CH] = increment(TB, CH);this.disabled = 'true'" id="Rice" name="Rice" />
+					<label for="Rice">Rice</label>
+       		<input type="checkbox" onclick="[TB, CH] = increment(TB, CH);this.disabled = 'true'" id="Beans" name="Beans" />
+					<label for="Beans">Beans</label>
+        	<input type="checkbox" onclick="[DD] = increment(DD);this.disabled = 'true'" id="GrilledCheese" name="GrilledCheese" />
+					<label for="GrilledCheese">Grilled Cheese</label>
+        </br>
+        <br>
+        	<input type="checkbox" onclick="[DD, CF] = increment(DD, CF);this.disabled = 'true'" id="TunaChickenSaladSandwiches" name="TunaChickenSaladSandwiches" />
+					<label for="TunaChickenSaladSandwiches">Tuna/Chicken Salad Sandwiches</label>
+        	<input type="checkbox" onclick="[PH, DM, SN, LC, PJ] = increment(PH, DM, SN, LC, PJ);this.disabled = 'true'" id="Wings" name="Wings" />
+					<label for="Wings">Wings</label>
+       		<input type="checkbox" onclick="[PH, DM] = increment(PH, DM);this.disabled = 'true'" id="Pasta" name="Pasta" />
+					<label for="Pasta">Pasta</label>
+       		<input type="checkbox" onclick="[PH, DM, LC, PJ] = increment(PH, DM, LC, PJ);this.disabled = 'true'" id="Breadsticks" name="Breadsticks" />
+					<label for="Breadsticks">Breadsticks</label>
+        	<input type="checkbox" onclick="[KFC] = increment(KFC);this.disabled = 'true'" id="FriedChicken" name="FriedChicken" />
+          <label for="FriedChicken">Fried Chicken</label>
+        </br>
+				<br>
+        	<input type="checkbox" onclick="[KFC] = increment(KFC);this.disabled = 'true'" id="MashedPotatoes" name="MashedPotatoes" />
+					<label for="MashedPotatoes">Mashed Potatoes</label>
+        	<input type="checkbox" onclick="[KFC] = increment(KFC);this.disabled = 'true'" id="Corn" name="Corn" />
+					<label for="Corn">Corn</label>
+       		<input type="checkbox" onclick="[KFC] = increment(KFC);this.disabled = 'true'" id="Biscuits" name="Biscuits" />
+					<label for="Biscuits">Biscuits</label>
+       		<input type="checkbox" onclick="[KFC] = increment(KFC);this.disabled = 'true'" id="MacnCheese" name="MacnCheese" />
+					<label for="MacnCheese">Mac 'n' Cheese</label>
+        	<input type="checkbox" onclick="[KFC] = increment(KFC);this.disabled = 'true'" id="GreenBeans" name="GreenBeans" />
+					<label for="GreenBeans">Green Beans</label>
+        </br>
+				<br>
+        	<input type="checkbox" onclick="[KFC] = increment(KFC);this.disabled = 'true'" id="ColeSlaw" name="ColeSlaw" />
+					<label for="ColeSlaw">Cole Slaw</label>
+        	<input type="checkbox" onclick="[KFC] = increment(KFC);this.disabled = 'true'" id="PotPie" name="PotPie" />
+					<label for="PotPie">Pot-Pie</label>
+       		<input type="checkbox" onclick="[SW, DM, DQ, AR] = increment(SW, DM, DQ, AR);this.disabled = 'true'" id="Sandwiches" name="Sandwiches" />
+					<label for="Sandwiches">Sandwiches</label>
+       		<input type="checkbox" onclick="[SN, AR] = increment(SN, AR);this.disabled = 'true'" id="MozzarellaSticks" name="MozzarellaSticks" />
+          <label for="MozzarellaSticks">Mozzarella Sticks</label>
+        	<input type="checkbox" onclick="[JB] = increment(JB);this.disabled = 'true'" id="EggRolls" name="EggRolls" />
+					<label for="EggRolls">Egg Rolls</label>
+        </br>
+      </p>
+    </section>
+		<h6>Desserts/Drinks:</h6>
+      <section>
+        <p>
+        <br>
+        	<input type="checkbox" onclick="[MC, BK, CF, SN, CJ, AR, JB] = increment(MC, BK, CF, SN, CJ, AR, JB);this.disabled = 'true'" id="SmoothiesMilkshakes" name="SmoothiesMilkshakes" />
+        	<label for="SmoothiesMilkshakes">Smoothies/Milkshakes</label>
+        	<input type="checkbox" onclick="[MC, BK, SW, CF] = increment(MC, BK, SW, CF);this.disabled = 'true'" id="YogurtParfait" name="YogurtParfait" />
+        	<label for="YogurtParfait">Yogurt Parfait</label>
+        	<input type="checkbox" onclick="[MC, BK, WE, CF, SN, DQ] = increment(MC, BK, WE, CF, SN, DQ);this.disabled = 'true'" id="IceCreamSundaes" name="IceCreamSundaes" />
+        	<label for="IceCreamSundaes">Ice Cream/Sundaes</label>
+        	<input type="checkbox" onclick="[MC, BK, SW, DD, CF, PH, KFC, CJ, DQ, AR, PJ] = increment(MC, BK, SW, DD, CF, PH, KFC, CJ, DQ, AR, PJ);this.disabled = 'true'" id="Cookies" name="Cookies" />
+       		<label for="Cookies">Cookies</label>
+          <input type="checkbox" onclick="[PH, MC] = increment(PH, MC);this.disabled = 'true'" id="ApplePie" name="ApplePie" />
+        	<label for="ApplePie">Apple Pie</label>
+        </br>
+      	<br>
+        	<input type="checkbox" onclick="[MC, BK] = increment(MC, BK);this.disabled = 'true'" id="Pie" name="Pie" />
+         	<label for="Pie">Pie</label>
+        	<input type="checkbox" onclick="[MC, BK, TB, DD, CF, SN, JB] = increment(MC, BK, TB, DD, CF, SN, JB);this.disabled = 'true'" id="Coffee" name="Coffee" />
+      		<label for="Coffee">Coffee</label>
+        	<input type="checkbox" onclick="[MC, BK, TB, DD, CF, SN, JB] = increment(MC, BK, TB, DD, CF, SN, JB);this.disabled = 'true'" id="Tea" name="Tea" />
+      		<label for="Tea">Tea (Brewed/Iced)</label>
+        	<input type="checkbox" onclick="[BK, PH, DM, PJ] = increment(BK, PH, DM, PJ);this.disabled = 'true'" id="CinnamonRolls" name="CinnamonRolls" />
+      		<label for="CinnamonRolls">Cinnamon Rolls</label>
+          <input type="checkbox" onclick="[CJ, JB] = increment(CJ, JB);this.disabled = 'true'" id="Cheesecake" name="Cheesecake" />
+         	<label for="Cheesecake">Cheesecake</label>
+        </br>
+        <br>
+        <br>
+       	<a href="3rd.html">
+            <input type="button" onclick="calculate()" value="Find Restaurants!" class="buttons">
+          </a>
+      </p>
+      </section>
+  </body>
+
+</div>
+</div>
+</html>

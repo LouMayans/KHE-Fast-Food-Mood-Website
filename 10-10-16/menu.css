@@ -1,0 +1,77 @@
+/* menu.css */
+body {
+  text-align: center;
+}
+
+h1{
+  color: rgba(52,40,44,1);
+  font-size: 60px;
+}
+
+h2{
+  color: black;
+  font-size: 30px;
+}
+
+h3{
+  color: black;
+  font-size: 30px;
+}
+
+h4{
+  color: black;
+  font-size: 30px;
+}
+
+h5{
+  color: black;
+  font-size: 30px;
+}
+
+h6{
+  color: black;
+  font-size: 30px;
+}
+
+input[type=checkbox] + label {
+  cursor: pointer;
+  color: black;
+  font-style: italic;
+}
+
+input[type=checkbox]:checked + label {
+  color: #f00;
+  font-style: normal;
+  font-size:18px;
+}
+.backgroundImageCVR{
+	position:relative;
+	padding:15px;
+}
+.background-image {
+  position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:url('http://image.prntscr.com/image/b58678ad63204488a50616ef118539c4.png');
+	background-size:cover;
+  background-attachment: fixed;
+	z-index:0;
+	-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.content {
+  position:relative;
+	z-index:3;
+	color:#fff;
+}
+
+.buttons{
+  cursor:pointer;
+  font-size: 20px;
+}

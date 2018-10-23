@@ -1,0 +1,26 @@
+
+#########################################################
+Files:
+	scrap.html	: 	google maps handles finding the retaurant with the input query search
+				geolocation searches for your location ##currently doesnt work with http###
+	scrap.css 	:
+
+	menu.html	:
+
+	menu.css	:
+	
+	hackathon.html	:
+	
+	hackathon.css	:
+	
+	3rd.html	:
+
+	3rd.css		:
+
+#########################################################
+#########################################################
+How to store items
+	sessionStorage.setItem('hm', hm);
+How to retrieve
+	var queryvar = sessionStorage.getItem('hm');
+#########################################################

@@ -1,0 +1,49 @@
+/*3rd.css*/
+
+html{
+  cursor: wait;
+  text-align: center;
+}
+
+.above{
+  color: white;
+  font-size: 46px;
+  text-align: center;
+}
+
+.backgroundImageCVR{
+	position:relative;
+	padding:15px;
+}
+
+.backgroundImageCVR{
+	position:relative;
+	padding:15px;
+}
+
+.background-image {
+  position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:url('http://retaildesignblog.net/wp-content/uploads/2012/04/Gastroarte-restaurant-Garrett-Singer-Architecture.jpg');
+	background-size: cover;
+  background-attachment: fixed;
+	z-index:1;
+	-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.content {
+  position:relative;
+	z-index:2;
+	color:#fff;
+}
+.buttons{
+  cursor:pointer;
+
+}
